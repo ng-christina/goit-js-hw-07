@@ -24,7 +24,7 @@ const fotoCard = galleryFoto(galleryItems)
  const leigthBox = new SimpleLightbox(".gallery__link", { 
     navText : ['<','>'],
     captionsData: 'alt',
-    animationSpeed : 250
+    captionDelay : 250
 })
 
   gallery.addEventListener("click", galleryClick);
